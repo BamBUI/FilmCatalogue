@@ -1,0 +1,10 @@
+ru\CastIronDev\domain\FilmInOrder.class
+ru\CastIronDev\ejb\FilmsManagerBean.class
+ru\CastIronDev\domain\Order.class
+ru\CastIronDev\domain\Film.class
+ru\CastIronDev\authenticator\ejb\AuthenticationManagerBean.class
+ru\CastIronDev\authenticator\ejb\AuthenticationManager.class
+ru\CastIronDev\authenticator\domain\Credentials.class
+ru\CastIronDev\authenticator\domain\ShopUser.class
+ru\CastIronDev\ejb\OrdersManagerBean.class
+ru\CastIronDev\authenticator\domain\ShopUser$Role.class

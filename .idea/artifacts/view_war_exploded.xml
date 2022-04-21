@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="view:war exploded">
+    <output-path>$PROJECT_DIR$/view/target/FilmCatalogue</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>view</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="view" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.faces:jsf-api:2.1" />
+          <element id="archive" name="logic-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="logic" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:5.3" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/view/target/FilmCatalogue/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="view/web/Web" />
+    </root>
+  </artifact>
+</component>
